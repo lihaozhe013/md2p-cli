@@ -216,6 +216,7 @@
   font-family: var(--fontStack-sansSerif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji");
   font-size: 16px;
   line-height: 1.5;
+  zoom: 80%;
   word-wrap: break-word;
 }
 
