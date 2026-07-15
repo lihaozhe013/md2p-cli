@@ -1,6 +1,6 @@
 {
   "stylesheet": [
-    "/Users/lihaozhe/Documents/dev/md-to-pdf-config/github-markdown.css"
+    "github-markdown.css"
   ],
   "body_class": [
     "markdown-body"
@@ -18,7 +18,7 @@
       "content": "MathJax = { tex: { inlineMath: [[\"$\", \"$\"], [\"\\\\(\", \"\\\\)\" ]], displayMath: [[\"$$\", \"$$\"], [\"\\\\[\", \"\\\\]\"]] } };"
     },
     {
-      "url": "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
+      "url": "js/tex-chtml.js"
     }
   ]
 }

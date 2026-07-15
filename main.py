@@ -61,7 +61,7 @@ def main():
         "pdf_options": pdf_options,
         "script": [
             {"content": mathjax_config},
-            {"url": "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"},
+            {"url": "js/tex-chtml.js"},
         ],
     }
 
