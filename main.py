@@ -5,6 +5,8 @@ import subprocess
 import sys
 from pathlib import Path
 
+from preprocess import preprocess
+
 
 def escape_latex_newlines(content: str) -> str:
     result = []
@@ -22,6 +24,8 @@ def escape_latex_newlines(content: str) -> str:
 def convert_file(md_file: Path, project_root: Path, config_file: Path,
                  output: str | None = None) -> None:
     md_content = md_file.read_text(encoding="utf-8")
+    md_content = preprocess(md_content)
+    md_file.write_text(md_content, encoding="utf-8")
     md_content = escape_latex_newlines(md_content)
 
     output_path = output or str(md_file.with_suffix(".pdf"))
