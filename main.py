@@ -5,6 +5,7 @@ import subprocess
 import sys
 from pathlib import Path
 
+from postprocess import postprocess
 from preprocess import preprocess
 
 
@@ -42,6 +43,7 @@ def convert_file(md_file: Path, project_root: Path, config_file: Path,
         sys.exit(result.returncode)
     if result.stdout:
         Path(output_path).write_bytes(result.stdout)
+        postprocess(output_path, md_file.stem)
 
 
 def ensure_config(project_root: Path) -> Path:
