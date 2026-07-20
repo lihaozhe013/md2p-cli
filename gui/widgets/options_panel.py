@@ -32,7 +32,7 @@ class OptionsPanel(QWidget):
         self._setup_ui()
 
     def _find_css_files(self) -> list[Path]:
-        root = get_project_root()
+        root = get_project_root() / "css"
         return sorted(root.glob("*.css"))
 
     def _read_config_css(self) -> str | None:

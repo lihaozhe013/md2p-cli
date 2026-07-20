@@ -1,6 +1,6 @@
 {
   "stylesheet": [
-    "rose.css"
+    "css/rose.css"
   ],
   "body_class": [
     "markdown-body"

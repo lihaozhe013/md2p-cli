@@ -1,76 +1,76 @@
 @font-face {
   font-family: 'Inter';
-  src: url('fonts/Inter/static/Inter_18pt-Regular.ttf') format('truetype');
+  src: url('../fonts/Inter/static/Inter_18pt-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Inter';
-  src: url('fonts/Inter/static/Inter_18pt-Bold.ttf') format('truetype');
+  src: url('../fonts/Inter/static/Inter_18pt-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Inter';
-  src: url('fonts/Inter/static/Inter_18pt-Italic.ttf') format('truetype');
+  src: url('../fonts/Inter/static/Inter_18pt-Italic.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Open Sans';
-  src: url('fonts/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+  src: url('../fonts/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Open Sans';
-  src: url('fonts/Open_Sans/static/OpenSans-Bold.ttf') format('truetype');
+  src: url('../fonts/Open_Sans/static/OpenSans-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Open Sans';
-  src: url('fonts/Open_Sans/static/OpenSans-Italic.ttf') format('truetype');
+  src: url('../fonts/Open_Sans/static/OpenSans-Italic.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Noto Sans SC';
-  src: url('fonts/Noto_Sans_SC/static/NotoSansSC-Regular.ttf') format('truetype');
+  src: url('../fonts/Noto_Sans_SC/static/NotoSansSC-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Noto Sans SC';
-  src: url('fonts/Noto_Sans_SC/static/NotoSansSC-Bold.ttf') format('truetype');
+  src: url('../fonts/Noto_Sans_SC/static/NotoSansSC-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'JetBrainsMono Nerd Font';
-  src: url('fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-Medium.ttf') format('truetype');
+  src: url('../fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-Medium.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'JetBrainsMono Nerd Font';
-  src: url('fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-Bold.ttf') format('truetype');
+  src: url('../fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'JetBrainsMono Nerd Font';
-  src: url('fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-Italic.ttf') format('truetype');
+  src: url('../fonts/JetBrainsMonoNerdFont/JetBrainsMonoNerdFont-Italic.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
 }

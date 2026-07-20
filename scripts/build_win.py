@@ -7,8 +7,8 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DIST_DIR = REPO_ROOT / "dist"
 
 DATA_FILES = [
-    "github-markdown.css",
-    "rose.css",
+    "css/github-markdown.css",
+    "css/rose.css",
     ".md-to-pdf.json.example",
     "js/tex-chtml.js",
 ]
