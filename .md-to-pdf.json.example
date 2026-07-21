@@ -19,12 +19,6 @@
     },
     {
       "url": "js/tex-chtml.js"
-    },
-    {
-      "url": "js/mermaid.min.js"
-    },
-    {
-      "url": "js/mermaid-init.js"
     }
   ]
 }
