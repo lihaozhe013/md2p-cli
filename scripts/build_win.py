@@ -11,6 +11,7 @@ DATA_FILES = [
     "css/rose.css",
     ".md-to-pdf.json.example",
     "js/tex-chtml.js",
+    "js/mermaid.min.js",
     "fonts",
 ]
 
